@@ -1,5 +1,7 @@
-# YOUR SONG
+# Can I Kick It? by A Tribe Called Quest
 
-> Lyric from your song
+> Wipe your feet really good on the rhythm rug.
 
-## Citations
+## Citations 
+*[Genuis](https://genius.com/A-tribe-called-quest-can-i-kick-it-lyrics)
+*[Open Props](https://open-props.style/)
