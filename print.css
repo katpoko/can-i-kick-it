@@ -14,7 +14,7 @@
         content: " " attr(href); 
     }
 
-    /* turn paragraphs into colums */
+    /* turn paragraphs into columns */
     .face p {
         columns: 2;
     }

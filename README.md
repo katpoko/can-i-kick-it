@@ -3,5 +3,5 @@
 > Wipe your feet really good on the rhythm rug.
 
 ## Citations 
-*[Genuis](https://genius.com/A-tribe-called-quest-can-i-kick-it-lyrics)
+*[Genius](https://genius.com/A-tribe-called-quest-can-i-kick-it-lyrics)
 *[Open Props](https://open-props.style/)

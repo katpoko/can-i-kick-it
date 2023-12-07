@@ -1,20 +1,23 @@
 /*Open Props Import */
 @import "https://unpkg.com/open-props";
 
-/*Google fonts import*/
-@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@100;600&display=swap');
 
 
 /* Diagnostic Styling*/
 
 *{
   /* outline: 1px double gray; */
+  font-family: 'Stick', sans-serif;
 }
 
 body {
-background:  var(--gradient-12);
-  height: 200vh;
-}
+  background-image: var(--gradient-12), var(--noise-5);
+  filter: var(--noise-filter-3);
+  height: 400vh;
+} 
 
 /* Main container*/
 
@@ -26,36 +29,55 @@ main {
 
 audio {
   width: 100%;
+  padding: 10px 20px 20px 10px;
+  justify-content: flex-end;
 }
 
-h1 { 
+h1 {
+  font-size: 62px;
+  padding: 10px 10px 10px 10px;
   text-align: center;
-
-}
-h1:hover {
-  animation: var(--animation-bounce);
-}
-
-h1 a {
-  font-family: "chewy";
-color:  var(--orange-12);
   text-decoration: none;
 }
-h1 a:hover {
-  color: var(--pink-6);
+
+/* h1:hover {
+  animation: var(--animation-bounce);
+} */
+
+h1 a {
+  color: var(--lime-5);
+  text-decoration: none;
 }
 
-/* Snarky Comments */
-span {
-  font-family: "chewy";
-  font-size; 24px;
+/* h1 a:hover {
+  color: var(--green-6);
+} */
+
+#callout {
+  /* font-family: 'Stick', sans-serif; */
+  color: orangered;
+}
+
+#callout:hover {
+  animation: var(--animation-blink);
+}
+
+/* span {
+  font-family: 'Stick', sans-serif;
+  color: whitesmoke;
+  font-size: 24px;
   padding: 12px;
-  
-  background: rgba(255, 255, 255, .5);
-  border-radius: var(--radius-blob-4)  
-}
+  /* background: rgba(255, 255, 255, .5);
+  border-radius: var(--radius-blob-4);   */
 
-span:hover {
+
+/* span:hover {
   display: inline-block;
   animation: var(--animation-shake-x);
+} */
+
+#title {
+  font-family: 'Stick', sans-serif;
+  font-size: 100px;
+  color: whitesmoke;
 }
